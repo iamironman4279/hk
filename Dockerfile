@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the port number the app runs on
-EXPOSE 8501
+EXPOSE 4000
 
 # Run app.py when the container launches
-CMD ["streamlit", "run", "--server.port", "8501", "app.py"]
+CMD ["streamlit", "run", "--server.port", "4000", "app.py"]
