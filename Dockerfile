@@ -19,5 +19,6 @@ ENV STREAMLIT_SERVER_PORT=8501
 # Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION environment variable
 ENV PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
-# Run the Streamlit app when the container launches
-CMD ["streamlit", "run", "your_app.py"]
+# Run the Streamlit app when the container launc
+CMD ["streamlit", "run", "app.py"]
+
